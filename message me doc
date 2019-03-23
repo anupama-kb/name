@@ -1,0 +1,17 @@
+gem install rails -v 5.2.1
+rails new _5.2.1_ new Messageme
+rails generate resource chatbox 
+rails genearte resource session
+# Added for ui integration
+# Reference https://github.com/doabit/semantic-ui-sass
+gem 'semantic-ui-sass'
+gem 'jquery-rails'
+
+Assets/stylesheet
+newfile added custom.css.scss
+code added from reference url
+added plugins under javascripts/application.js
+
+//=require jquery
+//=require sematic-ui
+
